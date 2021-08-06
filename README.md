@@ -1,1 +1,1 @@
-# rubykray
+# Ruby language lessons.
