@@ -9,4 +9,4 @@ class Week
 end
 
 week = Week.new
-puts week.each { |i| puts i }
+week.each { |i| puts i }
