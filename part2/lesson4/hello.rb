@@ -2,13 +2,13 @@ class Time
 	def hello
 		case Time.now.hour
 		when 6...12
-			puts 'Доброе утро!'
+			'Доброе утро!'
 		when 12...18
-			puts 'Добрый день!'
+			'Добрый день!'
 		when 18...0
-			puts 'Добрый вечер!'
+			'Добрый вечер!'
 		when 0...6
-			puts 'Доброй ночи!'
+			'Доброй ночи!'
 		end
 	end
 end
